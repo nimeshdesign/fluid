@@ -1,0 +1,66 @@
+// mixins 
+@mixin dflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  @mixin aic {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  @mixin jcc {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  @mixin fdc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  @mixin jcsb {
+    -webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;
+  }
+  @mixin fw {
+    -ms-flex-wrap: wrap;flex-wrap: wrap;
+  }
+  @mixin ais {
+    -webkit-box-align: start;-ms-flex-align: start;align-items: flex-start;
+  }
+  @mixin min375 {
+    @media (min-width:375px) {
+        @content;
+    }
+  }
+  @mixin min400 {
+    @media (min-width:400px) {
+        @content;
+    }
+  }
+  @mixin min576 {
+    @media (min-width:576px) {
+        @content;
+    }
+  }
+  @mixin min768 {
+    @media (min-width:768px) {
+        @content;
+    }
+  }
+  @mixin min992 {
+    @media (min-width:992px) {
+        @content;
+    }
+  }
+  @mixin min1024 {
+    @media (min-width:1024px) {
+        @content;
+    }
+  }
+  @mixin min1200 {
+    @media (min-width:1200px) {
+        @content;
+    }
+  }
